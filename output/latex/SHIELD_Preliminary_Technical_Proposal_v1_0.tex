@@ -1,0 +1,251 @@
+\documentclass[10pt,letterpaper]{article}
+\input{sdss-style.tex}
+\usepackage{eso-pic}
+\geometry{left=0.72in,right=0.72in,top=0.88in,bottom=0.68in,headheight=47pt,headsep=12pt,footskip=25pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt}
+\setstretch{1.02}
+\setcounter{tocdepth}{2}
+
+\hypersetup{
+  pdftitle={PRELIMINARY TECHNICAL PROPOSAL - SHIELD},
+  pdfsubject={Secure Homeland Integrated Early-Response and Land-Border Defence}
+}
+
+\makeatletter
+\renewcommand\section{\@startsection{section}{1}{0pt}%
+  {-2.3ex plus -0.8ex minus -0.2ex}{0.9ex plus 0.2ex}%
+  {\color{SDSSNavy}\large\bfseries}}
+\renewcommand\subsection{\@startsection{subsection}{2}{0pt}%
+  {-1.8ex plus -0.6ex minus -0.2ex}{0.6ex plus 0.2ex}%
+  {\color{SDSSNavy}\normalsize\bfseries}}
+\makeatother
+\renewcommand{\contentsname}{Contents}
+
+\newcommand{\EnableSDSSPageChrome}{%
+  \AddToShipoutPictureFG{%
+    \AtPageUpperLeft{%
+      \put(\LenToUnit{0.72in},\LenToUnit{-0.50in}){\SDSSLogo[1.45in]}%
+      \put(\LenToUnit{0.72in},\LenToUnit{-0.61in}){{\color{SDSSNavy}\rule{7.06in}{0.7pt}}}%
+    }%
+    \AtPageLowerLeft{%
+      \put(\LenToUnit{0.72in},\LenToUnit{0.48in}){{\color{SDSSNavy}\rule{7.06in}{0.5pt}}}%
+      \put(\LenToUnit{0.72in},\LenToUnit{0.22in}){\raisebox{-1pt}{\SDSSIcon}\hspace{5pt}{\color{SDSSNavy}\footnotesize\CompanyFull}}%
+      \put(\LenToUnit{0.5\paperwidth},\LenToUnit{0.24in}){\makebox(0,0){\footnotesize\thepage\ / \pageref{LastPage}}}%
+    }%
+  }%
+}
+
+\newcommand{\EquipmentItem}[2]{\item[\textbf{#1}] #2}
+\newcommand{\PrincipleItem}[2]{\item \textbf{#1:} #2}
+
+\begin{document}
+\hypersetup{pageanchor=false}
+
+% Cover page
+\thispagestyle{empty}
+\SDSSLogo[2.65in]
+
+\vspace{0.52in}
+{\color{SDSSNavy}\rule{\textwidth}{0.8pt}}
+
+\vspace{0.18in}
+{\color{SDSSNavy}\fontsize{23}{27}\selectfont\bfseries PRELIMINARY TECHNICAL PROPOSAL\par}
+\vspace{0.16in}
+{\color{SDSSNavy}\fontsize{19}{23}\selectfont\bfseries SHIELD\par}
+\vspace{0.06in}
+{\color{SDSSNavy}\fontsize{12.5}{16}\selectfont\bfseries SECURE HOMELAND INTEGRATED EARLY-RESPONSE AND LAND-BORDER DEFENCE\par}
+
+\vspace{0.18in}
+{\color{SDSSNavy}\rule{\textwidth}{0.8pt}}
+
+\vfill
+\renewcommand{\arraystretch}{1.65}
+\begin{tabular}{@{}l@{}l@{}}
+  \makebox[1.85in][l]{\color{SDSSNavy}\bfseries Prepared by} & \CompanyFull{} (\CompanyShort) \\
+  \makebox[1.85in][l]{\color{SDSSNavy}\bfseries Document status} & Preliminary for Technical Discussion \\
+  \makebox[1.85in][l]{\color{SDSSNavy}\bfseries Version} & 1.0 \\
+  \makebox[1.85in][l]{\color{SDSSNavy}\bfseries Date} & 26 September 2026 \\
+  \makebox[1.85in][l]{\color{SDSSNavy}\bfseries Document reference} & SDSS/SHIELD/PTP/001 \\
+\end{tabular}
+
+\vfill
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lr}
+  {\footnotesize\CompanyFull} & {\footnotesize Commercial in Confidence}
+\end{tabular*}
+\clearpage
+
+% Contents
+\hypersetup{pageanchor=true}
+\EnableSDSSPageChrome
+\pagenumbering{roman}
+\pagestyle{empty}
+{\color{SDSSNavy}\tableofcontents}
+\clearpage
+
+% Main matter
+\pagenumbering{arabic}
+\pagestyle{empty}
+
+\section{PURPOSE OF THIS PROPOSAL}
+
+This preliminary proposal presents the SHIELD concept and the equipment \CompanyShort{} offers to supply. It is a basis for technical discussion with the Office of the Special Adviser, not a final offer.
+
+The final proposal will follow a site survey. It will confirm exact quantities, locations, and schedule.
+
+\section{BACKGROUND AND OUR UNDERSTANDING}
+
+Nigeria's security challenge is less a lack of information than a failure to move it from collection to action in time. Agencies hold intelligence, but sharing is slow and field units often cannot act on it together.
+
+The Office of the Special Adviser to the President on Homeland Security, created in May 2026, exists to close that gap through intelligence integration, inter-agency coordination, and proactive risk management. It builds on the Intelligence Fusion Centre established under the Office of the National Security Adviser, which already brings the major security agencies together in Abuja.
+
+The next step is to extend that coordination to where threats occur: the land borders and the scene of a crisis. Two practical gaps stand out:
+
+\begin{enumerate}[label=\alph*.,leftmargin=2em,itemsep=5pt]
+  \item \textbf{Unwatched borders.} Long stretches of land border have no persistent surveillance, so illegal crossings go undetected.
+  \item \textbf{Agencies that cannot talk.} Police, military, and paramilitary units use different radio systems and cannot communicate directly at an incident.
+\end{enumerate}
+
+SHIELD addresses both with equipment, delivered and working, not with further studies.
+
+\section{THE SHIELD CONCEPT}
+
+\CompanyShort{} offers to deliver two of the five homeland security priorities: border surveillance and joint crisis response. SHIELD places both inside the full picture so that every item supplied fits the national effort.
+
+\renewcommand{\arraystretch}{1.22}
+\begin{tabularx}{\textwidth}{@{}>{\bfseries\color{SDSSNavy}}p{1.15in}p{2.15in}X@{}}
+\toprule
+Priority & Meaning & Scope \\
+\midrule
+Priority 1 & See everything in one place: one live operational picture at the national level & Not in scope; SHIELD feeds are delivered in open formats ready to connect \\
+Priority 2 & Know who's who: identity checks against the national ID system & Not in scope; border posts are prepared to host ID devices \\
+Priority 3 & Watch the borders: persistent surveillance of land borders & \textbf{IN SCOPE - PACKAGE A} \\
+Priority 4 & Warn early: detecting threats before they happen & Not in scope \\
+Priority 5 & Respond together: agencies acting as one team in a crisis & \textbf{IN SCOPE - PACKAGE B} \\
+\bottomrule
+\end{tabularx}
+
+Two principles guide the design:
+
+\begin{enumerate}[label=\alph*.,leftmargin=2em,itemsep=5pt]
+  \item \textbf{Shared picture, not shared command.} Each agency keeps its mandate and chain of command. SHIELD gives them the means to see and talk to each other.
+  \item \textbf{Build on what exists.} SHIELD extends the existing coordination structure rather than creating a new one.
+\end{enumerate}
+
+\section{PACKAGE A - BORDER SURVEILLANCE}
+
+Package A installs persistent surveillance on a pilot section of the South-West border with Benin, then expands to other sections once proven. The South-West is the most accessible land border for a first deployment, and its crossings are heavily used for smuggling.
+
+The exact pilot section, for example along the main road corridors and the bush crossings between them, will be fixed during the site survey.
+
+\subsection{How it works}
+
+The system works in four layers:
+
+\begin{enumerate}[leftmargin=2em,itemsep=4pt]
+  \item \textbf{Detect:} ground radar and buried sensors pick up people and vehicles moving across the border, day and night.
+  \item \textbf{Identify:} cameras on the nearest tower turn automatically toward the alarm, so an operator can see what triggered it.
+  \item \textbf{Report:} video and alarms travel to the sector control room and on to national level.
+  \item \textbf{Respond:} the operator alerts the nearest patrol or border post, which moves to intercept.
+\end{enumerate}
+
+\subsection{Equipment}
+
+\begin{description}[style=nextline,leftmargin=0pt,labelsep=0pt,itemsep=6pt]
+  \EquipmentItem{Surveillance towers}{Masts carrying day/night and thermal cameras and ground surveillance radar, covering open and bush terrain.}
+  \EquipmentItem{Unattended ground sensors}{Buried seismic and magnetic sensors along known crossing routes, raising an alarm when someone passes.}
+  \EquipmentItem{Border post upgrades}{CCTV, vehicle barriers and gates, and space, power, and network ready for ID devices.}
+  \EquipmentItem{Sector control room}{A room near the border with video display, operator consoles, and recording, where staff monitor towers and sensors.}
+  \EquipmentItem{Tower power}{Solar panels with battery storage at every tower, with no dependence on the grid.}
+  \EquipmentItem{Communications links}{Radio and satellite links carrying video and alarms from towers to the control room and onward.}
+  \EquipmentItem{Mobile surveillance units}{Vehicles with a telescopic camera and radar mast, moved to where crossing patterns shift.}
+  \EquipmentItem{Portable observation kits}{Man-portable tripod systems with thermal and day/night optics, carried by foot patrols to watch gaps between towers.}
+  \EquipmentItem{Vehicle and cargo scanning}{X-ray scanners at border posts to inspect vehicles, cargo, and baggage for contraband without unloading.}
+  \EquipmentItem{Perimeter protection}{Fencing, razor wire, and entry-point protection around border posts and the sector control room.}
+\end{description}
+
+\section{PACKAGE B - JOINT RESPONSE AND INTEROPERABLE COMMUNICATIONS}
+
+Package B lets different agencies talk and coordinate as one team at the scene of a crisis, without replacing any agency's own radios.
+
+\subsection{How it works}
+
+When an incident occurs, such as an attack, a mass kidnapping, or unrest at a border crossing, the police, military, civil defence, and other units arrive on their own radio networks. The radio bridging equipment links those networks, so a commander can open a shared talk group across all agencies in minutes.
+
+The mobile command vehicle becomes the on-scene command post. It carries the bridging equipment, a satellite link to national level, and a working space for the agency commanders. If mobile networks are down or cut, the emergency communication kits keep the scene connected.
+
+\subsection{Equipment}
+
+\begin{description}[style=nextline,leftmargin=0pt,labelsep=0pt,itemsep=6pt]
+  \EquipmentItem{Radio bridging equipment}{Gateways that interconnect different radio systems and frequency bands, fixed at command sites and portable for the field.}
+  \EquipmentItem{Mobile command vehicle}{One fully equipped vehicle with radios, bridging equipment, satellite link, displays, and a commanders' meeting space.}
+  \EquipmentItem{Emergency communication kits}{Satellite phones and portable satellite terminals for voice and data when terrestrial networks fail.}
+  \EquipmentItem{Deployable command shelters}{Rapid-erect shelters with lighting and power distribution for longer operations or sites vehicles cannot reach.}
+  \EquipmentItem{Standby power}{Generators and portable battery packs for the vehicle, shelters, and kits.}
+  \EquipmentItem{Mobile relay masts}{Deployable masts with encrypted mesh radio, extending radio coverage into remote areas around an incident.}
+\end{description}
+
+\section{DESIGN PRINCIPLES}
+
+All SHIELD equipment is chosen against six principles:
+
+\begin{enumerate}[label=\alph*.,leftmargin=2em,itemsep=5pt]
+  \PrincipleItem{Technology-neutral}{no brand is fixed in advance; equipment is selected against performance requirements.}
+  \PrincipleItem{Open standards}{video, data, and radio interfaces use recognised standards, so SHIELD connects to national systems and avoids lock-in to a single supplier.}
+  \PrincipleItem{Modular and scalable}{the pilot section and first vehicle form a template that can be copied to other border sections and zones.}
+  \PrincipleItem{Built for the environment}{equipment is rated for heat, humidity, heavy rain, and dust.}
+  \PrincipleItem{Independent power}{towers and field sites run on solar and batteries; command equipment carries its own backup.}
+  \PrincipleItem{Secure}{links are encrypted, equipment is hardened against tampering and cyber attack, and access is controlled.}
+\end{enumerate}
+
+\section{IMPLEMENTATION APPROACH}
+
+SHIELD is delivered in steps, with a live demonstration within roughly the first 3 months. Timings run from contract signature and export-license approval, and are approximate.
+
+\begin{description}[style=nextline,leftmargin=0pt,labelsep=0pt,itemsep=7pt]
+  \EquipmentItem{Step 0 - Site survey and design}{\textit{Timing: First weeks.} Survey the pilot border section and command sites; confirm the final equipment list and installation design.}
+  \EquipmentItem{Step 1 - Launch and demonstration}{\textit{Timing: Roughly 3 months.} Equipment ordered and export licenses applied for; live demonstration of radio bridging with participating agencies.}
+  \EquipmentItem{Step 2 - Interoperable communications}{\textit{Timing: Roughly 6-9 months.} Radio bridging equipment and emergency communication kits delivered, installed, and handed over.}
+  \EquipmentItem{Step 3 - Command vehicle and border pilot}{\textit{Timing: Roughly 9-15 months.} Mobile command vehicle delivered; pilot border section installed and operational.}
+  \EquipmentItem{Step 4 - Expansion}{\textit{Timing: After Step 3.} Further border sections and response units, based on pilot results.}
+\end{description}
+
+\section{TRAINING AND SUSTAINMENT}
+
+\CompanyShort{} trains the people who use SHIELD and keeps the equipment running.
+
+\begin{enumerate}[label=\alph*.,leftmargin=2em,itemsep=5pt]
+  \item \textbf{Operator training:} control room staff, vehicle crews, and radio operators, on the equipment they use.
+  \item \textbf{Technician training:} first-line maintenance and fault-finding for local technical staff.
+  \item \textbf{Train-the-trainer:} Nigerian instructors certified to train new personnel.
+  \item \textbf{Maintenance and spares:} a multi-year support period with preventive maintenance, a spare parts pool, and local technical staff.
+\end{enumerate}
+
+\section{WHY \MakeUppercase{\CompanyShort}}
+
+\CompanyShort{} is a Nigerian-registered company based in Abuja, with an NCAGE code, supplying and integrating security systems for armed forces, police, paramilitary services, and government agencies.
+
+\begin{enumerate}[label=\alph*.,leftmargin=2em,itemsep=6pt]
+  \item \textbf{Relevant capability:} border and perimeter surveillance, vehicle-mounted and portable observation systems, secure communications and relay masts, command vehicle fit-out, checkpoint screening, and command-centre equipment.
+  \item \textbf{Established manufacturer network:} \CompanyShort{} represents leading international manufacturers under executed agreements, and selects the system that suits the operating environment rather than a single brand.
+  \item \textbf{One point of accountability:} site survey, procurement and export documentation, shipping and customs, installation and integration with existing cameras and radios, training, and through-life support, all under one contract.
+  \item \textbf{Knowledge of Nigerian institutions:} engagements with the Nigerian Air Force mean SHIELD is designed around how Nigerian agencies actually operate, and can link with air surveillance assets where the client wishes.
+\end{enumerate}
+
+\section{NEXT STEPS}
+
+\CompanyShort{} proposes three steps toward a final proposal:
+
+\begin{enumerate}[leftmargin=2em,itemsep=6pt]
+  \item A meeting with the Office of the Special Adviser to present SHIELD and answer questions.
+  \item Agreement on the pilot border section and the participating agencies.
+  \item A site survey, leading to the final technical proposal with confirmed quantities, locations, and schedule.
+\end{enumerate}
+
+\vfill
+\begin{center}
+  {\color{SDSSNavy}\rule{0.7\textwidth}{0.6pt}}\\[7pt]
+  {\color{SDSSNavy}\bfseries End of Preliminary Technical Proposal SDSS/SHIELD/PTP/001 v1.0}
+\end{center}
+
+\end{document}
