@@ -21,13 +21,13 @@ SUBJECT: SUBMISSION OF PRELIMINARY TECHNICAL PROPOSAL - SHIELD (SECURE
 
 Dear Sir,
 
-Strategic Defense submits its Preliminary Technical Proposal for SHIELD, an equipment-based capability to strengthen border security and joint crisis response in support of the homeland security priorities of your office.
+Strategic Defense submits its Preliminary Technical Proposal for SHIELD, an equipment-based capability to strengthen border management and joint emergency response in support of the homeland security priorities of your office.
 
-The proposal builds on the coordination already established through the Intelligence Fusion Centre and extends it to where threats occur: the land borders and the scene of a crisis. We offer two capability packages. Package A installs persistent surveillance on a pilot section of the South-West border with Benin, using towers, ground sensors, mobile and portable observation systems, and upgraded border posts. Package B provides interoperable communications and a mobile command vehicle, so that police, military and paramilitary units can talk and coordinate as one team at an incident without replacing their own radios.
+The proposal builds on the coordination already established through the Intelligence Fusion Centre and extends it to where it is needed most: the land borders and the scene of an emergency. It reflects the principle that security is not the responsibility of the military alone, but is shared by civilian and military agencies and by communities. We offer two capability packages. Package A gives customs, immigration, police and civil defence a continuous view of a pilot section of the South-West border with Benin, to curb smuggling and trafficking, protect border communities and speed up legitimate trade. Package B provides interoperable communications and a mobile incident command vehicle, so that police, emergency services, civil defence and, where needed, the military can talk and coordinate as one team at any major incident, from attacks to floods and building collapses, without replacing their own radios.
 
 The proposal rests on a single principle: shared picture, not shared command. Each agency retains its mandate and chain of command throughout. SHIELD equipment is technology-neutral and built on open standards, so that it connects to national systems and avoids dependence on a single supplier.
 
-This is a preliminary proposal, intended as a basis for technical discussion with your office. The Final Technical Proposal will follow a site survey and will confirm quantities, locations and schedule. We anticipate a live demonstration of cross-agency radio interoperability within roughly three months of contract.
+This is a preliminary proposal, intended as a basis for technical discussion with your office. The Final Technical Proposal will follow a site survey and will confirm quantities, locations and schedule. Delivery would begin with an early live demonstration of cross-agency radio interoperability.
 
 Strategic Defense is ready to present the proposal to your office at a time convenient to you, and to agree the pilot border section and participating agencies as the next step.
 

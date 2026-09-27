@@ -1,11 +1,11 @@
 \contentsline {section}{\numberline {1}PURPOSE OF THIS PROPOSAL}{1}{section.1}%
 \contentsline {section}{\numberline {2}BACKGROUND AND OUR UNDERSTANDING}{1}{section.2}%
 \contentsline {section}{\numberline {3}THE SHIELD CONCEPT}{1}{section.3}%
-\contentsline {section}{\numberline {4}PACKAGE A - BORDER SURVEILLANCE}{1}{section.4}%
+\contentsline {section}{\numberline {4}PACKAGE A - BORDER MONITORING AND MANAGEMENT}{2}{section.4}%
 \contentsline {subsection}{\numberline {4.1}How it works}{2}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Equipment}{2}{subsection.4.2}%
-\contentsline {section}{\numberline {5}PACKAGE B - JOINT RESPONSE AND INTEROPERABLE COMMUNICATIONS}{2}{section.5}%
-\contentsline {subsection}{\numberline {5.1}How it works}{2}{subsection.5.1}%
+\contentsline {section}{\numberline {5}PACKAGE B - JOINT EMERGENCY RESPONSE AND COMMUNICATIONS}{3}{section.5}%
+\contentsline {subsection}{\numberline {5.1}How it works}{3}{subsection.5.1}%
 \contentsline {subsection}{\numberline {5.2}Equipment}{3}{subsection.5.2}%
 \contentsline {section}{\numberline {6}DESIGN PRINCIPLES}{3}{section.6}%
 \contentsline {section}{\numberline {7}IMPLEMENTATION APPROACH}{3}{section.7}%
