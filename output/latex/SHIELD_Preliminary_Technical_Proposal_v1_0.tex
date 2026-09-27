@@ -1,6 +1,5 @@
 \documentclass[10pt,letterpaper]{article}
 \input{sdss-style.tex}
-\usepackage{eso-pic}
 \geometry{left=0.72in,right=0.72in,top=0.88in,bottom=0.68in,headheight=47pt,headsep=12pt,footskip=25pt}
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{5pt}
@@ -22,18 +21,15 @@
 \makeatother
 \renewcommand{\contentsname}{Contents}
 
-\newcommand{\EnableSDSSPageChrome}{%
-  \AddToShipoutPictureFG{%
-    \AtPageUpperLeft{%
-      \put(\LenToUnit{0.72in},\LenToUnit{-0.50in}){\SDSSLogo[1.45in]}%
-      \put(\LenToUnit{0.72in},\LenToUnit{-0.61in}){{\color{SDSSNavy}\rule{7.06in}{0.7pt}}}%
-    }%
-    \AtPageLowerLeft{%
-      \put(\LenToUnit{0.72in},\LenToUnit{0.48in}){{\color{SDSSNavy}\rule{7.06in}{0.5pt}}}%
-      \put(\LenToUnit{0.72in},\LenToUnit{0.22in}){\raisebox{-1pt}{\SDSSIcon}\hspace{5pt}{\color{SDSSNavy}\footnotesize\CompanyFull}}%
-      \put(\LenToUnit{0.5\paperwidth},\LenToUnit{0.24in}){\makebox(0,0){\footnotesize\thepage\ / \pageref{LastPage}}}%
-    }%
-  }%
+\fancypagestyle{sdss}{%
+  \fancyhf{}%
+  \fancyhead[L]{\raisebox{-4pt}{\SDSSLogo[1.45in]}}%
+  \fancyfoot[L]{\raisebox{-1pt}{\SDSSIcon}\hspace{5pt}{\color{SDSSNavy}\footnotesize\CompanyFull}}%
+  \fancyfoot[C]{\footnotesize\thepage\ / \pageref{LastPage}}%
+  \renewcommand{\headrulewidth}{0.7pt}%
+  \renewcommand{\footrulewidth}{0.5pt}%
+  \renewcommand{\headrule}{\hbox to\headwidth{\color{SDSSNavy}\leaders\hrule height \headrulewidth\hfill}}%
+  \renewcommand{\footrule}{\hbox to\headwidth{\color{SDSSNavy}\leaders\hrule height \footrulewidth\hfill}}%
 }
 
 \newcommand{\EquipmentItem}[2]{\item[\textbf{#1}] #2}
@@ -77,15 +73,15 @@
 
 % Contents
 \hypersetup{pageanchor=true}
-\EnableSDSSPageChrome
 \pagenumbering{roman}
-\pagestyle{empty}
+\pagestyle{sdss}
 {\color{SDSSNavy}\tableofcontents}
 \clearpage
 
 % Main matter
 \pagenumbering{arabic}
-\pagestyle{empty}
+\pagestyle{sdss}
+\thispagestyle{sdss}
 
 \section{PURPOSE OF THIS PROPOSAL}
 
@@ -112,20 +108,22 @@ SHIELD addresses both with equipment, delivered and working, not with further st
 
 \section{THE SHIELD CONCEPT}
 
-SHIELD is aligned with Nigeria's National Counter-Terrorism Strategy (NACTEST), which organises the national effort into five work streams. \CompanyShort{} offers equipment for two of them: Secure and Prepare. Because SHIELD also serves everyday border management and emergencies such as floods, it supports the wider aims of the National Security Strategy as well.
+SHIELD is built on Nigeria's National Security Strategy 2019 (NSS), the overarching framework for national security. The NSS takes a comprehensive view of security centred on the well-being of people, recognises that security is no longer the exclusive preserve of the military, and calls for a coordinated, whole-of-nation approach. SHIELD equips civilian and military agencies to deliver on five of its commitments.
 
 \renewcommand{\arraystretch}{1.22}
-\begin{tabularx}{\textwidth}{@{}>{\bfseries\color{SDSSNavy}}p{1.15in}p{2.15in}X@{}}
+\begin{tabularx}{\textwidth}{@{}>{\RaggedRight\arraybackslash}p{1.55in}>{\RaggedRight\arraybackslash}p{3.10in}>{\RaggedRight\arraybackslash}X@{}}
 \toprule
-Work stream & Aim & Scope \\
+\textcolor{SDSSNavy}{\textbf{Commitment}} & \textcolor{SDSSNavy}{\textbf{NSS}} & \textcolor{SDSSNavy}{\textbf{SHIELD}} \\
 \midrule
-Forestall & Prevent terrorism through public engagement, counter-narratives and de-radicalisation & Not in scope \\
-Secure & Protect lives, property and critical infrastructure, including stronger border security & \textbf{IN SCOPE - PACKAGE A} \\
-Identify & Detect, investigate and disrupt threats, and bring those responsible to justice & Not in scope; SHIELD camera and sensor data can support investigations and connect to national systems later \\
-Prepare & Ensure responders and agencies can respond to and recover from incidents & \textbf{IN SCOPE - PACKAGE B} \\
-Implement & Coordinate a cross-government effort under national leadership & Not in scope \\
+\textcolor{SDSSNavy}{\textbf{Porous borders}} & Nigeria's land borders are largely porous and inadequately manned; the South-West border with Benin is known for smuggling; stronger border security is critical to countering terrorism and organised crime & Package A - continuous monitoring of a pilot section of the South-West border \\
+\textcolor{SDSSNavy}{\textbf{Transnational organised crime}} & Smuggling, the spread of small arms and trafficking are fuelled in part by weak border security management & Package A - sensors, cameras and cargo scanning at border posts \\
+\textcolor{SDSSNavy}{\textbf{Internal security}} & Commits to stronger border security and to technology-enabled intelligence infrastructure & Package A - a joint border control room shared by all border agencies \\
+\textcolor{SDSSNavy}{\textbf{Crisis response and resilience}} & Calls for early warning and response, effective communication, and inter-agency crisis teams with unified command, control, communication and coordination & Package B - radio bridging, a mobile incident command vehicle and emergency communications \\
+\textcolor{SDSSNavy}{\textbf{Environmental threats}} & Treats floods and other natural and man-made disasters as national security threats needing contingency plans & Package B - coordination and communications that keep working when normal networks fail \\
 \bottomrule
 \end{tabularx}
+
+SHIELD also supports the Secure and Prepare work streams of the National Counter-Terrorism Strategy (NACTEST), on which the NSS relies for its counter-terrorism aims.
 
 Two principles guide the design:
 
@@ -140,7 +138,7 @@ Package A gives the agencies that manage Nigeria's land borders a clear, continu
 
 The aim is not only to intercept armed threats. It is also to keep border communities safe in their daily lives, curb smuggling and human trafficking, and let legitimate trade and travellers move more safely and quickly.
 
-The stakes are high. The UN Office on Drugs and Crime estimates that some 6 million illicit small arms and light weapons are in circulation in Nigeria, around 70\% of which enter through its borders.
+The stakes are high. The National Security Strategy, citing the Small Arms Survey, estimates that some one million small arms and light weapons are in circulation in Nigeria, and links their spread to conflicts in neighbouring countries and weak border security management.
 
 The pilot covers a section of the South-West border with Benin, one of Nigeria's busiest trade corridors, and expands to other sections once proven. The exact section, for example along the main road corridors and the bush crossings between them, will be fixed during the site survey.
 
@@ -193,7 +191,9 @@ The mobile incident command vehicle becomes the on-scene coordination point. Age
   \EquipmentItem{Mobile relay masts}{Portable masts with secure radio relay, extending coverage into remote areas.}
 \end{description}
 
+\clearpage
 \section{DESIGN PRINCIPLES}
+\thispagestyle{sdss}
 
 All SHIELD equipment is chosen against six principles:
 

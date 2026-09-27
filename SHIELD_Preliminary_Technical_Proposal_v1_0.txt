@@ -53,32 +53,42 @@ SHIELD addresses both with equipment, delivered and working, not with further st
 3.  THE SHIELD CONCEPT
 ================================================================================
 
-SHIELD is aligned with Nigeria's National Counter-Terrorism Strategy (NACTEST), which organises the national effort into five work streams. Strategic Defense offers equipment for two of them: Secure and Prepare. Because SHIELD also serves everyday border management and emergencies such as floods, it supports the wider aims of the National Security Strategy as well.
+SHIELD is built on Nigeria's National Security Strategy 2019 (NSS), the overarching framework for national security. The NSS takes a comprehensive view of security centred on the well-being of people, recognises that security is no longer the exclusive preserve of the military, and calls for a coordinated, whole-of-nation approach. SHIELD equips civilian and military agencies to deliver on five of its commitments.
 
-    Forestall
-        Aim:    Prevent terrorism through public engagement, counter-narratives
-                and de-radicalisation
-        Scope:  Not in scope
+    Porous borders
+        NSS:     Nigeria's land borders are largely porous and inadequately
+                 manned; the South-West border with Benin is known for
+                 smuggling; stronger border security is critical to
+                 countering terrorism and organised crime
+        SHIELD:  Package A - continuous monitoring of a pilot section of the
+                 South-West border
 
-    Secure
-        Aim:    Protect lives, property and critical infrastructure, including
-                stronger border security
-        Scope:  IN SCOPE - PACKAGE A
+    Transnational organised crime
+        NSS:     Smuggling, the spread of small arms and trafficking are
+                 fuelled in part by weak border security management
+        SHIELD:  Package A - sensors, cameras and cargo scanning at border
+                 posts
 
-    Identify
-        Aim:    Detect, investigate and disrupt threats, and bring those
-                responsible to justice
-        Scope:  Not in scope; SHIELD camera and sensor data can support
-                investigations and connect to national systems later
+    Internal security
+        NSS:     Commits to stronger border security and to
+                 technology-enabled intelligence infrastructure
+        SHIELD:  Package A - a joint border control room shared by all
+                 border agencies
 
-    Prepare
-        Aim:    Ensure responders and agencies can respond to and recover from
-                incidents
-        Scope:  IN SCOPE - PACKAGE B
+    Crisis response and resilience
+        NSS:     Calls for early warning and response, effective
+                 communication, and inter-agency crisis teams with unified
+                 command, control, communication and coordination
+        SHIELD:  Package B - radio bridging, a mobile incident command
+                 vehicle and emergency communications
 
-    Implement
-        Aim:    Coordinate a cross-government effort under national leadership
-        Scope:  Not in scope
+    Environmental threats
+        NSS:     Treats floods and other natural and man-made disasters as
+                 national security threats needing contingency plans
+        SHIELD:  Package B - coordination and communications that keep
+                 working when normal networks fail
+
+SHIELD also supports the Secure and Prepare work streams of the National Counter-Terrorism Strategy (NACTEST), on which the NSS relies for its counter-terrorism aims.
 
 Two principles guide the design:
 
@@ -98,7 +108,7 @@ Package A gives the agencies that manage Nigeria's land borders a clear, continu
 
 The aim is not only to intercept armed threats. It is also to keep border communities safe in their daily lives, curb smuggling and human trafficking, and let legitimate trade and travellers move more safely and quickly.
 
-The stakes are high. The UN Office on Drugs and Crime estimates that some 6 million illicit small arms and light weapons are in circulation in Nigeria, around 70% of which enter through its borders.
+The stakes are high. The National Security Strategy, citing the Small Arms Survey, estimates that some one million small arms and light weapons are in circulation in Nigeria, and links their spread to conflicts in neighbouring countries and weak border security management.
 
 The pilot covers a section of the South-West border with Benin, one of Nigeria's busiest trade corridors, and expands to other sections once proven. The exact section, for example along the main road corridors and the bush crossings between them, will be fixed during the site survey.
 

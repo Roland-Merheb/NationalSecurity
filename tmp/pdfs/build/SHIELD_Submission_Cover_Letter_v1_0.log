@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.7.11)  27 SEP 2026 08:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.7.11)  27 SEP 2026 10:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -367,7 +367,8 @@ File: t1qtm.fd 2009/09/25 v1.2 font definition file for T1/qtm
 File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count309
 )
-(../../tmp/pdfs/build/SHIELD_Submission_Cover_Letter_v1_0.aux)
+(C:\Users\ASUS\Desktop\Proposals\National security\tmp\pdfs\build/SHIELD_Submis
+sion_Cover_Letter_v1_0.aux)
 \openout1 = `SHIELD_Submission_Cover_Letter_v1_0.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
@@ -466,8 +467,11 @@ e
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring ON on input line 14.
-(../../tmp/pdfs/build/SHIELD_Submission_Cover_Letter_v1_0.out)
-(../../tmp/pdfs/build/SHIELD_Submission_Cover_Letter_v1_0.out)
+
+(C:\Users\ASUS\Desktop\Proposals\National security\tmp\pdfs\build/SHIELD_Submis
+sion_Cover_Letter_v1_0.out)
+(C:\Users\ASUS\Desktop\Proposals\National security\tmp\pdfs\build/SHIELD_Submis
+sion_Cover_Letter_v1_0.out)
 \@outlinefile=\write3
 \openout3 = `SHIELD_Submission_Cover_Letter_v1_0.out'.
 
@@ -491,7 +495,9 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc} <../../logo_transparent.png>]
 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
-(../../tmp/pdfs/build/SHIELD_Submission_Cover_Letter_v1_0.aux)
+
+(C:\Users\ASUS\Desktop\Proposals\National security\tmp\pdfs\build/SHIELD_Submis
+sion_Cover_Letter_v1_0.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-06-18>
@@ -501,17 +507,17 @@ Package rerunfilecheck Info: File `SHIELD_Submission_Cover_Letter_v1_0.out' has
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 12753 strings out of 469077
- 204786 string characters out of 5458249
+ 12751 strings out of 469077
+ 205254 string characters out of 5458249
  672567 words of memory out of 5000000
  41608 multiletter control sequences out of 15000+600000
- 638722 words of font info for 60 fonts, out of 8000000 for 9000
+ 638616 words of font info for 59 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  74i,5n,82p,1032b,449s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2026/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb><c:/texlive/
 2026/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb>
-Output written on ../../tmp/pdfs/build/SHIELD_Submission_Cover_Letter_v1_0.pdf 
-(1 page, 445170 bytes).
+Output written on "C:\Users\ASUS\Desktop\Proposals\National security\tmp\pdfs\b
+uild/SHIELD_Submission_Cover_Letter_v1_0.pdf" (1 page, 445239 bytes).
 PDF statistics:
  28 PDF objects out of 1000 (max. 8388607)
  18 compressed objects within 1 object stream

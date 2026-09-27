@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.7.11)  27 SEP 2026 08:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.7.11)  27 SEP 2026 10:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -357,12 +357,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 33.
 )
-(c:/texlive/2026/texmf-dist/tex/latex/eso-pic/eso-pic.sty
-Package: eso-pic 2026/05/31 v3.0e eso-pic (RN)
-\ESO@tempdima=\dimen187
-\ESO@tempdimb=\dimen188
-)
-LaTeX Font Info:    Trying to load font information for T1+qtm on input line 7.
+LaTeX Font Info:    Trying to load font information for T1+qtm on input line 6.
 
 
 (c:/texlive/2026/texmf-dist/tex/latex/tex-gyre/t1qtm.fd
@@ -372,34 +367,35 @@ File: t1qtm.fd 2009/09/25 v1.2 font definition file for T1/qtm
 File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count309
 )
-(../../tmp/pdfs/build/SHIELD_Preliminary_Technical_Proposal_v1_0.aux)
+(C:\Users\ASUS\Desktop\Proposals\National security\tmp\pdfs\build/SHIELD_Prelim
+inary_Technical_Proposal_v1_0.aux)
 \openout1 = `SHIELD_Preliminary_Technical_Proposal_v1_0.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Info: Redefining \microtypecontext on input line 42.
-Package microtype Info: Applying patch `item' on input line 42.
-Package microtype Info: Applying patch `toc' on input line 42.
-Package microtype Info: Applying patch `eqnum' on input line 42.
-Package microtype Info: Applying patch `footnote' on input line 42.
-Package microtype Info: Applying patch `verbatim' on input line 42.
-LaTeX Info: Redefining \microtypesetup on input line 42.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Info: Redefining \microtypecontext on input line 38.
+Package microtype Info: Applying patch `item' on input line 38.
+Package microtype Info: Applying patch `toc' on input line 38.
+Package microtype Info: Applying patch `eqnum' on input line 38.
+Package microtype Info: Applying patch `footnote' on input line 38.
+Package microtype Info: Applying patch `verbatim' on input line 38.
+LaTeX Info: Redefining \microtypesetup on input line 38.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -417,13 +413,13 @@ File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 (c:/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count310
-\scratchdimen=\dimen189
+\scratchdimen=\dimen187
 \scratchbox=\box57
 \nofMPsegments=\count311
 \nofMParguments=\count312
 \everyMPshowfont=\toks27
 \MPscratchCnt=\count313
-\MPscratchDim=\dimen190
+\MPscratchDim=\dimen188
 \MPnumerator=\count314
 \makeMPintoPDFobject=\count315
 \everyMPtoPDFconversion=\toks28
@@ -470,17 +466,20 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 42.
-(../../tmp/pdfs/build/SHIELD_Preliminary_Technical_Proposal_v1_0.out)
-(../../tmp/pdfs/build/SHIELD_Preliminary_Technical_Proposal_v1_0.out)
+Package hyperref Info: Link coloring ON on input line 38.
+
+(C:\Users\ASUS\Desktop\Proposals\National security\tmp\pdfs\build/SHIELD_Prelim
+inary_Technical_Proposal_v1_0.out)
+(C:\Users\ASUS\Desktop\Proposals\National security\tmp\pdfs\build/SHIELD_Prelim
+inary_Technical_Proposal_v1_0.out)
 \@outlinefile=\write3
 \openout3 = `SHIELD_Preliminary_Technical_Proposal_v1_0.out'.
 
-Package hyperref Info: Option `pageanchor' set `false' on input line 43.
+Package hyperref Info: Option `pageanchor' set `false' on input line 39.
 <../../logo_transparent.png, id=60, 2180.145pt x 726.715pt>
 File: ../../logo_transparent.png Graphic file (type png)
 <use ../../logo_transparent.png>
-Package pdftex.def Info: ../../logo_transparent.png  used on input line 47.
+Package pdftex.def Info: ../../logo_transparent.png  used on input line 43.
 (pdftex.def)             Requested size: 191.51505pt x 63.838pt.
 
 (c:/texlive/2026/texmf-dist/tex/latex/microtype/mt-cmr.cfg
@@ -488,85 +487,86 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 (RS)
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 64.
+(Font)              <7> on input line 60.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 64.
+(Font)              <5> on input line 60.
  [1
 
 {c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2026/
 texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc} <../../logo_transparent.png>]
-Package hyperref Info: Option `pageanchor' set `true' on input line 79.
+Package hyperref Info: Option `pageanchor' set `true' on input line 75.
 
-(../../tmp/pdfs/build/SHIELD_Preliminary_Technical_Proposal_v1_0.toc)
+(C:\Users\ASUS\Desktop\Proposals\National security\tmp\pdfs\build/SHIELD_Prelim
+inary_Technical_Proposal_v1_0.toc)
 \tf@toc=\write4
 \openout4 = `SHIELD_Preliminary_Technical_Proposal_v1_0.toc'.
 
 File: ../../logo_transparent.png Graphic file (type png)
 <use ../../logo_transparent.png>
-Package pdftex.def Info: ../../logo_transparent.png  used on input line 84.
+Package pdftex.def Info: ../../logo_transparent.png  used on input line 79.
 (pdftex.def)             Requested size: 104.79128pt x 34.9296pt.
 <../../icon 1.png, id=83, 722.7pt x 718.685pt>
 File: ../../icon 1.png Graphic file (type png)
 <use ../../icon 1.png>
-Package pdftex.def Info: ../../icon 1.png  used on input line 84.
+Package pdftex.def Info: ../../icon 1.png  used on input line 79.
 (pdftex.def)             Requested size: 10.84006pt x 10.7798pt.
  [1
 
  <../../icon 1.png>]
-Underfull \hbox (badness 1960) in paragraph at lines 128--128
-[]|\T1/qtm/m/n/10 (+20) Know who's who: iden-tity checks
- []
-
 File: ../../logo_transparent.png Graphic file (type png)
 <use ../../logo_transparent.png>
-Package pdftex.def Info: ../../logo_transparent.png  used on input line 140.
+Package pdftex.def Info: ../../logo_transparent.png  used on input line 131.
 (pdftex.def)             Requested size: 104.79128pt x 34.9296pt.
 File: ../../icon 1.png Graphic file (type png)
 <use ../../icon 1.png>
-Package pdftex.def Info: ../../icon 1.png  used on input line 140.
+Package pdftex.def Info: ../../icon 1.png  used on input line 131.
 (pdftex.def)             Requested size: 10.84006pt x 10.7798pt.
-[1
+ [1
 
 ]
 File: ../../logo_transparent.png Graphic file (type png)
 <use ../../logo_transparent.png>
-Package pdftex.def Info: ../../logo_transparent.png  used on input line 174.
+Package pdftex.def Info: ../../logo_transparent.png  used on input line 166.
 (pdftex.def)             Requested size: 104.79128pt x 34.9296pt.
 File: ../../icon 1.png Graphic file (type png)
 <use ../../icon 1.png>
-Package pdftex.def Info: ../../icon 1.png  used on input line 174.
+Package pdftex.def Info: ../../icon 1.png  used on input line 166.
 (pdftex.def)             Requested size: 10.84006pt x 10.7798pt.
  [2]
 File: ../../logo_transparent.png Graphic file (type png)
 <use ../../logo_transparent.png>
-Package pdftex.def Info: ../../logo_transparent.png  used on input line 211.
+Package pdftex.def Info: ../../logo_transparent.png  used on input line 194.
 (pdftex.def)             Requested size: 104.79128pt x 34.9296pt.
 File: ../../icon 1.png Graphic file (type png)
 <use ../../icon 1.png>
-Package pdftex.def Info: ../../icon 1.png  used on input line 211.
+Package pdftex.def Info: ../../icon 1.png  used on input line 194.
 (pdftex.def)             Requested size: 10.84006pt x 10.7798pt.
  [3]
 File: ../../logo_transparent.png Graphic file (type png)
 <use ../../logo_transparent.png>
-Package pdftex.def Info: ../../logo_transparent.png  used on input line 255.
+Package pdftex.def Info: ../../logo_transparent.png  used on input line 239.
 (pdftex.def)             Requested size: 104.79128pt x 34.9296pt.
 File: ../../icon 1.png Graphic file (type png)
 <use ../../icon 1.png>
-Package pdftex.def Info: ../../icon 1.png  used on input line 255.
+Package pdftex.def Info: ../../icon 1.png  used on input line 239.
 (pdftex.def)             Requested size: 10.84006pt x 10.7798pt.
- [4]
+ [4
+
+]
 File: ../../logo_transparent.png Graphic file (type png)
 <use ../../logo_transparent.png>
-Package pdftex.def Info: ../../logo_transparent.png  used on input line 255.
+Package pdftex.def Info: ../../logo_transparent.png  used on input line 259.
 (pdftex.def)             Requested size: 104.79128pt x 34.9296pt.
 File: ../../icon 1.png Graphic file (type png)
 <use ../../icon 1.png>
-Package pdftex.def Info: ../../icon 1.png  used on input line 255.
+Package pdftex.def Info: ../../icon 1.png  used on input line 259.
 (pdftex.def)             Requested size: 10.84006pt x 10.7798pt.
- [5]
 
+[5] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
-(../../tmp/pdfs/build/SHIELD_Preliminary_Technical_Proposal_v1_0.aux)
+
+(C:\Users\ASUS\Desktop\Proposals\National security\tmp\pdfs\build/SHIELD_Prelim
+inary_Technical_Proposal_v1_0.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-06-18>
@@ -576,21 +576,20 @@ ut' has not changed.
 (rerunfilecheck)             Checksum: 9BB7DACFC954F7D5E440ACE1C83BD050;2310.
  ) 
 Here is how much of TeX's memory you used:
- 13049 strings out of 469077
- 209257 string characters out of 5458249
- 677916 words of memory out of 5000000
- 41780 multiletter control sequences out of 15000+600000
- 668196 words of font info for 105 fonts, out of 8000000 for 9000
+ 12952 strings out of 469077
+ 208379 string characters out of 5458249
+ 677480 words of memory out of 5000000
+ 41684 multiletter control sequences out of 15000+600000
+ 665498 words of font info for 106 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 74i,13n,82p,1039b,586s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 74i,16n,82p,1039b,679s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2026/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb><c:/texlive/
-2026/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><c:/texlive/2026/texmf-dis
-t/fonts/type1/public/tex-gyre/qtmri.pfb>
-Output written on ../../tmp/pdfs/build/SHIELD_Preliminary_Technical_Proposal_v1
-_0.pdf (7 pages, 528910 bytes).
+2026/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb>
+Output written on "C:\Users\ASUS\Desktop\Proposals\National security\tmp\pdfs\b
+uild/SHIELD_Preliminary_Technical_Proposal_v1_0.pdf" (7 pages, 506858 bytes).
 PDF statistics:
- 173 PDF objects out of 1000 (max. 8388607)
- 152 compressed objects within 2 object streams
+ 168 PDF objects out of 1000 (max. 8388607)
+ 149 compressed objects within 2 object streams
  47 named destinations out of 1000 (max. 500000)
- 26235 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 24187 words of extra memory for PDF output out of 24883 (max. 10000000)
 
